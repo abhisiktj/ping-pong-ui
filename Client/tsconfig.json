@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+      "target": "esnext",                  // Use the latest JavaScript features
+      "module": "esnext",                  // Use ES modules
+      "jsx": "react-jsx",                  // Use React 17+ JSX Transform (no need to import React)
+      "moduleResolution": "node",          // Resolve modules like Node.js
+      "skipLibCheck": true,                // Skip checking types of declaration files (improves compile time)
+      "esModuleInterop": true,             // Allow default imports from CommonJS modules
+      "strict": true,                      // Enable strict type-checking options (recommended)
+      "types": ["react", "react-dom"]      // Include types for React and ReactDOM
+    },
+    "include": [
+      "src/**/*"                           // Include all files in the src directory
+    ],
+    "exclude": [
+      "node_modules"                       // Exclude node_modules folder
+    ]
+  }
